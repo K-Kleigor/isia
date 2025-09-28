@@ -11,7 +11,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
             // Define um ponto de gatilho (200px acima do fundo da tela)
             // A animação começa quando a seção atinge esta área
-            const triggerPoint = viewportHeight - 150;
+            const triggerPoint = viewportHeight - 200;
 
             // Verifica se a seção está visível na tela
             if (sectionTop < triggerPoint) {
@@ -29,4 +29,5 @@ document.addEventListener('DOMContentLoaded', function() {
 
     // 2. Verifica a visibilidade imediatamente, caso algum elemento já esteja visível
     checkVisibility();
+
 });
