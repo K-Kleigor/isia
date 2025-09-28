@@ -1,0 +1,30 @@
+.body{
+    background-color: #002A54;
+    color: white;
+}
+/* 1. ESTADO INICIAL: Oculto e Preparado */
+.fade-in-section {
+    /* Opacidade 0 para esconder o elemento */
+    opacity: 0;
+    
+    /* Move o elemento ligeiramente para baixo, para dar o efeito de subir */
+    transform: translateY(30px); 
+    
+    /* Adiciona a transição suave para as propriedades opacity e transform */
+    transition: opacity 0.8s ease-out, transform 0.8s ease-out;
+    
+    /* Mantém o elemento oculto até que o JS mude a classe */
+    visibility: hidden;
+}
+
+/* 2. ESTADO FINAL: Visível e Posicionado */
+.fade-in-section.is-visible {
+    /* Opacidade 1 para torná-lo visível */
+    opacity: 1;
+    
+    /* Move de volta para a posição original */
+    transform: translateY(0);
+    
+    /* Torna o elemento acessível novamente */
+    visibility: visible;
+}
