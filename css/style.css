@@ -1,6 +1,5 @@
-.body{
-    background-color: #002A54;
-    color: white;
+.bg-navy{
+    background-color: #002A54 !important;
 }
 /* 1. ESTADO INICIAL: Oculto e Preparado */
 .fade-in-section {
@@ -27,4 +26,5 @@
     
     /* Torna o elemento acessível novamente */
     visibility: visible;
+
 }
