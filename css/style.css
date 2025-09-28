@@ -1,6 +1,9 @@
 .bg-navy{
     background-color: #002A54 !important;
 }
+.border-r{
+    border-radius: 5px !important;
+}
 /* 1. ESTADO INICIAL: Oculto e Preparado */
 .fade-in-section {
     /* Opacidade 0 para esconder o elemento */
@@ -28,3 +31,4 @@
     visibility: visible;
 
 }
+
